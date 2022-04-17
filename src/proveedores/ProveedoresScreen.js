@@ -40,7 +40,7 @@ function ProveedoresScreen ({navigation}) {
               <View>
               <Card containerStyle={{...styles.card}}>
                 <MaterialCommunityIcons name='truck-delivery' color={'orange'} style={{alignSelf:'center'}} size={100} />
-                  <Text style={{...styles.text}}>Nomre: {item.nombre}</Text>
+                  <Text style={{...styles.text}}>Nombre: {item.nombre}</Text>
                   <Text style={{...styles.text}}>Empresa: {item.empresa}</Text>
                   <Text style={{...styles.text}}>Dias de visita: {item.dias_visita}</Text>
               </Card>

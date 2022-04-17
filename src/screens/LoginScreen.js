@@ -29,10 +29,14 @@ const LoginScreen = ({navigation}) => {
         .then(res => res.json())
         .catch(error => console.error('Error:', error))
         .then(response => {
+          if(response['token'] != undefined){
           console.log('Success:', response['token']);
           return response['token'],
           saveData(response['token']),
           navigation.navigate('Home')
+          }else{
+            alert('Credenciales incorrectas')
+          }
         });
     } catch (error) {
       console.log(error);

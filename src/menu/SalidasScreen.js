@@ -42,7 +42,7 @@ const SalidasScreen = () => {
               <View>
               <Card containerStyle={{...styles.card}}>
                 <MaterialCommunityIcons name='dollar' color={'orange'} style={{alignSelf:'center'}} size={100} />
-                  <Text style={{...styles.text}}>Nomre: {item.nombre}</Text>
+                  <Text style={{...styles.text}}>Nombre: {item.nombre}</Text>
                   <Text style={{...styles.text}}>Salida: {item.salida}</Text>
               </Card>
               </View>
